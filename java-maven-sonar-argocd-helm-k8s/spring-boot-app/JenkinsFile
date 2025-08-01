@@ -50,7 +50,7 @@ pipeline {
 
     stage('Build and Push Docker Image') {
       environment {
-        DOCKER_IMAGE = "akash501/ultimate-cicd:${BUILD_NUMBER}"
+        DOCKER_IMAGE = "akash501/ultimate-cicdd:${BUILD_NUMBER}"
       }
       steps {
         script {
